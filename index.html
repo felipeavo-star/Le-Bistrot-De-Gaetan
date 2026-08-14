@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Le Bistrot de Gaëtan — cocina francesa en Santiago.">
+  <title>Le Bistrot de Gaëtan | Cuisine Française</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Le Bistrot de Gaëtan">LE BISTROT <span>DE GAËTAN</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#experiencia">La experiencia</a>
+      <a href="#chef">Gaëtan</a>
+      <a href="#carta">La carte</a>
+      <a href="#contacto">Contacto</a>
+      <a class="nav-reserve" href="#reservas">Reservar mesa</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-image"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="kicker">CUISINE FRANÇAISE · SANTIAGO</p>
+        <h1>Le Bistrot<br><em>de Gaëtan</em></h1>
+        <p class="hero-copy">Una mesa, una copa de vino y el sabor de Francia.</p>
+        <a class="button button-light" href="#reservas">Reservar mesa <span>↗</span></a>
+      </div>
+      <div class="hero-bottom"><span>Vitacura · Santiago</span><span>Scroll para descubrir ↓</span></div>
+    </section>
+
+    <section class="intro section" id="experiencia">
+      <div class="section-label">01 — L'EXPÉRIENCE</div>
+      <div class="intro-grid">
+        <div>
+          <p class="kicker dark">LE BISTROT DE GAËTAN</p>
+          <h2>Una auténtica<br><em>experiencia francesa.</em></h2>
+        </div>
+        <div class="intro-text">
+          <p>Le Bistrot de Gaëtan nace de una pasión por la cocina francesa, los buenos productos y ese placer sencillo de sentarse a la mesa y disfrutar.</p>
+          <p>Un espacio donde la tradición se encuentra con Santiago, con una cocina honesta, cálida y hecha para compartir.</p>
+        </div>
+      </div>
+      <div class="image-strip"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1400&q=85" alt="Interior de restaurante elegante" loading="lazy"><div class="image-caption">L'art de recevoir</div></div>
+    </section>
+
+    <section class="specialties section-dark">
+      <div class="section-label">02 — NOS SPÉCIALITÉS</div>
+      <div class="specialties-head"><h2>Lo esencial de<br><em>la cuisine française.</em></h2><a href="#carta" class="text-link">Descubrir la carta <span>↗</span></a></div>
+      <div class="dish-grid">
+        <article class="dish dish-large"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=85" alt="Plato de carne" loading="lazy"><div><span>01</span><h3>Viandes</h3><p>Cortes, salsas y clásicos de la tradición francesa.</p></div></article>
+        <article class="dish"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85" alt="Plato gastronómico" loading="lazy"><div><span>02</span><h3>Classiques</h3><p>Sabores que cuentan una historia.</p></div></article>
+        <article class="dish"><img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=900&q=85" alt="Postre francés" loading="lazy"><div><span>03</span><h3>Desserts</h3><p>El final que merece la mesa.</p></div></article>
+      </div>
+    </section>
+
+    <section class="chef section" id="chef">
+      <div class="section-label">03 — LE CHEF</div>
+      <div class="chef-grid">
+        <div class="chef-photo"><img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=1100&q=85" alt="Chef en cocina" loading="lazy"></div>
+        <div class="chef-copy"><p class="kicker dark">GAËTAN EONET</p><h2>La cocina<br><em>como oficio.</em></h2><p>Detrás de Le Bistrot está Gaëtan Eonet, cuya historia y vínculo con la gastronomía francesa son parte esencial de la identidad del restaurante.</p><p>Su cocina busca algo simple: buenos ingredientes, técnica, memoria y una experiencia que se sienta verdadera.</p><a class="text-link dark-link" href="#contacto">Conocer Le Bistrot <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="carta">
+      <div class="section-label">04 — LA CARTE</div>
+      <div class="menu-heading"><div><p class="kicker dark">À TABLE</p><h2>La carte.</h2></div><p>Descubre nuestra selección de entradas, fondos, postres y vinos.</p></div>
+      <div class="menu-categories">
+        <div><span>01</span><h3>Entrées</h3><p>Para comenzar.</p></div>
+        <div><span>02</span><h3>Viandes & poissons</h3><p>Los clásicos del Bistrot.</p></div>
+        <div><span>03</span><h3>Desserts</h3><p>Un dulce final.</p></div>
+        <div><span>04</span><h3>Vins & champagne</h3><p>Para acompañar la mesa.</p></div>
+      </div>
+      <a class="button button-dark" href="#reservas">Ver carta completa <span>↗</span></a>
+    </section>
+
+    <section class="gallery section-dark">
+      <div class="section-label">05 — L'ATMOSPHÈRE</div>
+      <div class="gallery-head"><h2>El lugar también<br><em>es parte de la experiencia.</em></h2><p>Un bistrot para una cena especial, un encuentro, un cumpleaños o simplemente una buena noche.</p></div>
+      <div class="gallery-grid"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85" alt="Interior de restaurante" loading="lazy"><img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=900&q=85" alt="Comedor de restaurante" loading="lazy"><img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=900&q=85" alt="Mesa en restaurante" loading="lazy"></div>
+    </section>
+
+    <section class="reservation section" id="reservas">
+      <div class="reservation-inner"><p class="kicker dark">RÉSERVATIONS</p><h2>Tu mesa<br><em>te espera.</em></h2><p>Reserva y ven a disfrutar de una experiencia francesa en Le Bistrot de Gaëtan.</p><a class="button button-dark" href="https://www.google.com/search?q=Le+Bistrot+de+Gaetan+reservas" target="_blank" rel="noopener">Reservar mesa <span>↗</span></a></div>
+    </section>
+
+    <section class="contact section-dark" id="contacto">
+      <div class="section-label">06 — LE BISTROT</div>
+      <div class="contact-grid"><div><p class="kicker">SANTIAGO · CHILE</p><h2>À bientôt<br><em>à table.</em></h2></div><div class="contact-details"><div><span>Dirección</span><strong>Vitacura, Santiago</strong></div><div><span>Reservas</span><strong>Contacto del restaurante</strong></div><div><span>Horarios</span><strong>Consulta disponibilidad</strong></div><div class="socials"><a href="#">Instagram</a><a href="#">TripAdvisor</a></div></div></div>
+    </section>
+  </main>
+
+  <footer><span>© Le Bistrot de Gaëtan</span><span>Cuisine française · Santiago</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
